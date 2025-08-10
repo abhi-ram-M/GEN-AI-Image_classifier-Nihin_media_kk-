@@ -1,0 +1,13 @@
+torch
+torchvision
+numpy
+pillow
+streamlit
+requests
+beautifulsoup4
+pymupdf
+scikit-learn
+tqdm
+ftfy
+regex
+git+https://github.com/openai/CLIP.git
