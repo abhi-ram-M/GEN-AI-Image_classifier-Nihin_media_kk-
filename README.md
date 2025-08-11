@@ -12,7 +12,7 @@ Supports images from URLs and embedded images in PDFs, shown in a Streamlit app.
 
 ## Approach
 
-- Data in `medical/` and `non\_medical/`, resized to 224×224 RGB.
+- Data in `medical` and `non_medical`, resized to 224×224 RGB.
 
 - Balanced classes, split into train/val/test with fixed seed.
 
@@ -26,9 +26,9 @@ Supports images from URLs and embedded images in PDFs, shown in a Streamlit app.
 
 ## Results
 
-- \*\*Validation:\*\* 100% accuracy  
+- **Validation:** 100% accuracy  
 
-- \*\*Test:\*\* 100% accuracy  
+- **Test:** 100% accuracy  
 
 (Small, clean dataset made separation easy.)
 
@@ -36,9 +36,7 @@ Supports images from URLs and embedded images in PDFs, shown in a Streamlit app.
 
 ## Performance
 
-- Only trained the linear head → fast \& low memory.
-
-- Batched inference (32) + `torch.inference\_mode` for speed.
+- Only trained the linear head → fast & low memory.
 
 - Used CLIP’s preprocessing to avoid mismatches.
 
