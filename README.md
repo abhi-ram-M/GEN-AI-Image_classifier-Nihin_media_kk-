@@ -40,5 +40,15 @@ Supports images from URLs and embedded images in PDFs, shown in a Streamlit app.
 
 - Used CLIP’s preprocessing to avoid mismatches.
 
+## How to run the Program
+
+- Create a new python virtual env preferabally 3.11-3.12.
+  
+- Clone this repository and install all the requirements mentioned in Requirements.txt.
+  
+- Run the program and provide the command to launch a Streamlit web application.
+
+- Give the Input in form of URL or PDF file and click on Fetch Images to Classify them.
+
 
 
